@@ -5,40 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joyce Sarmento de Lima</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Joyce Sarmento de Lima</h1>
-
+    <header id="menu">
+        <h1 class="logo">Joyce Sarmento de Lima</h1>
+        <nav class="navegacao">
+            <ul>
+                <li>Sobre mim</li>
+                <li>Estudando</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
-            <h2>Sobre mim</h2>
-            <img src="minhaFoto.jpg" alt="Selfie de Joyce Sarmento de Lima" width="200">
-            <p>
-                Tenho 26 anos, sou <strong>estudante de Tecnologia da Informação</strong> pela faculdade virtual do estado
-                de São Paulo (UNIVESP). Moro em <em>São Paulo, capital</em>, gosto muito de ler, ouvir música e assistir
-                séries. Sou apaixonada por tecnologia e estou sempre em busca de aprender coisas novas. Atualmente, estou me
-                aprofundando em programação e desenvolvimento web atráves do curso oferecido pelo <strong>Minas
-                Programam</strong>.
-            </p>
-            <h2>Minha frase favorita é:</h2>
-                <cite>
-                    “Olhe para as estrelas, os grandes reis do passado estão nos observando no céu. Quando você se sentir
-                    sozinho, lembre-se de que os reis sempre estarão lá para guiá-lo, e eu
-                    também." – <strong>Mufasa</strong>
-                </cite>
+        <section id="sobre">
+            <img  class="sobre-imagem" src="imagens/minhaFoto.jpg" alt="Selfie de Joyce Sarmento de Lima">
+            <h2 class="sobre-nome">Joyce Sarmento de Lima</h2>
+            <h3 class="sobre-titulo">Estudante de Tecnologia da Informação</h3>
+            <p class="sobre-descricao">
+                Tenho 26 anos, sou <strong>estudante de Tecnologia da Informação</strong> pela faculdade virtual do estado de São Paulo (UNIVESP). Moro em <em>São Paulo, capital</em>, gosto muito de ler, ouvir música e assistir séries. Sou apaixonada por tecnologia e estou sempre em busca de aprender coisas novas. Atualmente, estou me aprofundando em programação e desenvolvimento web atráves do curso oferecido pelo <strong>Minas Programam</strong>.
             </p>
         </section>
 
-        <section>
-            <h2>Estou estudando:</h2>
-            <ul>
-                <li>Linguagem de marcação (HTML)</li>
-                <li>Linguagem de Estilização (CSS)</li>
-                <li>JavaScript</li>
-            </ul>
+        <section id="formacao">
+            <h2 class="formacao-titulo">Formação</h2>
+
+            <div class="formacao-lista">
+                <h3>Desenvolvimento Front-End</h3>
+                <a href="https://minasprogramam.com/" target="_blank">Instituto Minas Programam</a>
+                <p>Curos introdutório de desenvolvimento Front-End, ensinando conceitos básicos de HTML, CSS e JavaScript.</p>
+
+                <h3>Cursando - Bacharelado em Tecnologia da Informação</h2>
+                <a href="https://univesp.br/" target="_blank">Universiadade Virtual do Estado de São Paulo</a>
+                <p>Curso de graduação em Tecnologia da Informação, com foco em desenvolvimento de software e sistemas.</p>
+            </div>
         </section>
 
         <section>
@@ -48,7 +55,7 @@
                 <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
 
                 <label for="email">E-mail: </label>
-                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" ><br><br>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail"><br><br>
 
                 <label for="mensagem">Mensagem: </label>
                 <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem" rows="4"></textarea><br>
@@ -58,7 +65,7 @@
         </section>
     </main>
     <footer>
-        <a href="https://www.linkedin.com/in/joyce-sarmento-de-lima-50047a328/" target="_blank">Link para o meu LinkedIn</a>
+        <a href="https://www.linkedin.com/in/joyce-sarmento-de-lima-50047a328/" target="_blank">Meu LinkedIn</a>
     </footer>
 </body>
 </html>
