@@ -38,7 +38,7 @@ body {
 }
 
 .sobre-imagem {
-    width:200px;
+    width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
@@ -58,7 +58,7 @@ body {
 
 .sobre-descricao {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.6;
     margin-top: 10px;
 }
 
@@ -68,11 +68,11 @@ body {
 
 .formacao-titulo {
     color: #49BFB3;
-    font-size: 35px;
-    margin-bottom: 30px;;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
-.formacao-lista{
+.formacao-lista {
     width: 600px;
     margin: 0 auto;
 }
@@ -81,14 +81,14 @@ body {
     font-size: 20px;
     color: #828282;
     margin-bottom: 10px;
-    width: 120px;
+    width: 180px;
 }
 
 .formacao-lista a {
     color: #2F80ED;
     font-size: 20px;
-    margin-bottom: 10px;
-}
+    margin-bottom: 15px;
+} 
 
 .formacao-lista p {
     margin-top: 10px;
@@ -96,6 +96,79 @@ body {
     font-size: 20px;
 }
 
-h2 {
+#experiencia {
+    background-color: #EDEAEA;
+    padding: 50px 150px;
+}
+
+.experiencia-titulo {
     color: #49BFB3;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.experiencia-lista {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.experiencia-lista h3 {
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+.experiencia-lista a {
+    color:#2F80ED;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.experiencia-lista p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#contato {
+    padding: 50px 150px;
+}
+
+.contato-titulo {
+    color: #49BFB3;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.contato-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.contato-grupoinput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato-input {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.contato-input input {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #C5C0C0;
+    border-radius: 5px;
+}
+
+.contato-input textarea {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #C5C0C0;
+    border-radius: 5px;
 }
