@@ -101,36 +101,36 @@ body {
     font-size: 20px;
 }
 
-#experiencia {
+#cursos {
     background-color: #EDEAEA;
     padding: 50px 150px;
 }
 
-.experiencia-titulo {
+.cursos-titulo {
     color: #49BFB3;
     font-size: 30px;
     margin-bottom: 30px;
 }
 
-.experiencia-lista {
+.cursos-lista {
     width: 600px;
     margin: 0 auto;
 }
 
-.experiencia-lista h3 {
+.cursos-lista h3 {
     font-size: 20px;
     color: #828282;
     margin-bottom: 10px;
     width: 180px;
 }
 
-.experiencia-lista a {
+.cursos-lista a {
     color:#2F80ED;
     font-size: 20px;
     margin-bottom: 15px;
 }
 
-.experiencia-lista p {
+.cursos-lista p {
     margin-top: 10px;
     margin-bottom: 30px;
     font-size: 20px;
